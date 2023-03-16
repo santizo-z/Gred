@@ -1,0 +1,20 @@
+.main{
+    width: 40rem;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.bloque{
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(233, 233, 27);
+    border: 1px solid blueviolet;
+}
+.activo{
+    display: none;
+}
